@@ -11,5 +11,5 @@ class Engine(ABC):
         pass
 
     @abstractmethod
-    def needs_service(self) -> bool:
-        return super().needs_service()
+    def needs_service(self):
+        pass
