@@ -1,12 +1,14 @@
 from datetime import datetime
 
 from engine.capulet_engine import CapuletEngine
+from battert.spindler_battery import NubbinBattery
+from car import Car
 
 
-class Thovex(CapuletEngine):
-    def needs_service(self):
-        service_threshold_date = self.last_service_date.replace(year=self.last_service_date.year + 4)
-        if service_threshold_date < datetime.today().date() or self.engine_should_be_serviced():
-            return True
-        else:
-            return False
+class Rorschach(Car):
+    def __init__(self, last_service_date, current_date, current_mileage, last_service_mileage):
+        self._engine = CapuletEngine(last_service_date, current_mileage, last_service_mileage)
+        self._battery = NubbinBattery(last_service_date, current_date)
+
+    def needs_services(self) -> bool:
+        return self._engine.needs_service() or self._battery.needs_service()
