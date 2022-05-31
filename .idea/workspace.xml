@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d940928-1b1c-4395-8c0d-284dbfb8e75c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_battery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battery/nubbin_battery.py" beforeDir="false" afterPath="$PROJECT_DIR$/battery/nubbin_battery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/battery/spindler_battery.py" beforeDir="false" afterPath="$PROJECT_DIR$/battery/spindler_battery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/car_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/capulet_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/capulet_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/sternman_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/sternman_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/willoughby_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/engine/willoughby_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/battery/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_car.py" afterDir="false" />
-    </list>
+    <list default="true" id="1d940928-1b1c-4395-8c0d-284dbfb8e75c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
