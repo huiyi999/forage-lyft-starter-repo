@@ -2,12 +2,11 @@
 Created on 2022-05-30
 @author: chy
 """
-
 from abc import ABC, abstractmethod
 
 
-class Battery(ABC):
-    """An abstract battery class."""
+class Tire(ABC):
+    """An abstract tire class."""
 
     def __init__(self) -> None:
         pass

@@ -7,6 +7,8 @@ from abc import ABC, abstractmethod
 
 
 class Engine(ABC):
+    """An abstract engine class."""
+
     def __init__(self) -> None:
         pass
 
